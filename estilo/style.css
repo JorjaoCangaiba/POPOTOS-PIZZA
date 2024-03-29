@@ -43,6 +43,17 @@ font-family: var(--fonte-padrao);
     color: var(--cor2);
     margin-top: -20px;
     padding-bottom: 20px;
-    
-    
+      
   }
+
+  main{
+    background-color: #f1f180;
+  }
+  footer{
+    background-color: brown;
+  }
+  footer > p{
+    color: white;
+    padding: 10px;
+    
+  }  
