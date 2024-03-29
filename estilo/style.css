@@ -25,7 +25,8 @@ font-family: var(--fonte-padrao);
  
       }
  header{
-  background-color: var(--cor4);
+  background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+  min-height: 150px;
   text-align: center;
   
  }     
@@ -49,14 +50,22 @@ font-family: var(--fonte-padrao);
   nav{
     background-color: var(--cor2);
     font-weight: bold;
+    border-radius: 5px;
     padding: 3px;
+    padding-left: 10px;
     margin: -20px 0px 10px;
   }
   nav > p > a{
     text-decoration: none;
     font-size: 1.2em;
     color: #631903;
+    padding: 10px;
+    transition-duration: 1s;
    
+  }
+  nav > p > a:hover{
+    background-color: var(--cor4);
+    color: #FCD932;
   }
   main{
     background-color: #f1f180;
