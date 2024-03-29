@@ -43,11 +43,27 @@ font-family: var(--fonte-padrao);
     color: var(--cor2);
     margin-top: -20px;
     padding-bottom: 20px;
+    
       
   }
-
+  nav{
+    background-color: var(--cor2);
+    font-weight: bold;
+    padding: 3px;
+    margin: -20px 0px 10px;
+  }
+  nav > p > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #631903;
+   
+  }
   main{
     background-color: #f1f180;
+  }
+  main > img{
+    margin: 10px;
+    box-shadow: #8f240346 3px 3px 0px;
   }
   footer{
     background-color: brown;
@@ -55,5 +71,6 @@ font-family: var(--fonte-padrao);
   footer > p{
     color: white;
     padding: 10px;
+    text-align: center;
     
   }  
