@@ -67,6 +67,22 @@ font-family: var(--fonte-padrao);
     background-color: var(--cor4);
     color: #FCD932;
   }
+  .flex-container{
+    display: flex;
+    
+  }
+  .flex-item1{
+    padding: 10px;
+  }
+
+  .flex-item2{
+    background-color: var(--cor2);
+    font-size: 1.6em;
+    padding: 20px 0px 10px 20px;
+    width: 190px;
+    height: 500px;
+
+  }
   main{
     background-color: #f1f180;
   }
